@@ -1,0 +1,260 @@
+/* FORMATAÇÕES DIRETAS   */
+body{
+    background-color: #fff;
+    background-size: 100%;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(to bottom,#2c0a0b,#67171b, #932126);
+    position: sticky;
+    top: 0px;
+
+}
+
+ul{
+    list-style: none;
+}
+
+h4{
+    font-size: 40px;
+    color: #000;
+    opacity: 80%;
+    font-weight: 400;
+    text-shadow: 1px 1px #fff;
+}
+
+/*  CLASSES  */
+
+.coluna-topo-2{
+    height: 120px;
+    margin-top: 35px;
+}
+
+.coluna-topo-2_1{
+    height: 50px;
+}
+
+.img-top{
+    width: 300px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.nav-link{
+    font-weight: bold;
+    color: #fff;    
+}
+
+.titulo-conteudo{
+    width: 100%;
+    text-align: center;
+}
+
+.borda{
+    border-bottom: solid 2px #000;
+}
+
+.formulario-inp{
+    float: left;
+    margin-left: 10px;
+}
+
+.inp-1{
+    width: 250px;
+}
+
+.inp-1::placeholder {
+    color: #000;
+}
+
+.inp::placeholder {
+    color: #000;
+}
+
+.inp-2{
+    width: 100px;
+}
+
+.btn-env{
+    text-align: center;
+    width: 180px;
+    background-color: #932125;
+}
+
+.linha-card{
+    width: 900px;
+    margin: auto;
+}
+
+.border-dark{
+    border: solid 1px;
+}
+
+.bloco{
+    width: 30%; 
+    height: 370px;
+    float: left; 
+    margin: 10px; 
+    padding: 8px; 
+    border-radius: 8px;
+    box-shadow: -1px -1px #932125;
+}
+
+.img-rodape{
+    width: 300px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.footer-nav{
+    font-size: 17px;
+    margin-top: 5px;
+    font-weight: 200;
+}
+
+.nav-fot{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-fot:hover{
+    color: #000;
+}
+
+.rodape{
+    background: linear-gradient(to top,#1d0708 1%,#67171b, #932126 100%);
+    height: 350px; 
+    padding: 5px"
+}
+
+.social-nav{
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.social-nav,a{
+    color: #000;
+}
+
+.social-nav,a:hover{
+    color: #fff;
+}
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-width: 1400px){
+    nav {
+        float: right;
+        width: 90px;
+    }
+
+    header {
+        height: 150px;
+    }
+
+    .formulario-inp, .inp-1{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+
+    .btn-env{
+        margin-top: 15px;
+    }
+
+    .bloco{
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .bloco{
+        height: 540px;
+    }
+
+    button{
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    nav{
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .bloco{
+        width: 100%;
+        height: 350px;
+    }
+
+    button{
+        width: 45%;
+        margin-top: 5px;
+    }
+
+    nav{
+        width: 180px;
+    }
+
+    .rodape, .fot-box{
+        height: 350px;
+    }
+
+    .img-rodape{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 770px){
+
+    .rodape, .fot-box{
+        height: 450px;
+    }
+
+    .social{
+        display: none;
+    }
+
+    .img-rodape{
+        width: 150px;
+    }
+
+}
+
+@media only screen and (max-width: 440px){
+    .img-top{
+        display: none;
+    }
+
+    .bloco{
+        width: 100%;
+        height: 380px;
+    }
+
+    button{
+        width: 45%;
+        margin-top: 5px;
+    }
+    nav{
+        width: 100%;
+    }
+
+    .img-rodape{
+        width: 100%;
+    }
+
+    .footer-nav{
+        width: 100%;
+    }
+
+    .rodape, .fot-box{
+        height: 500px;
+    }
+}
+
