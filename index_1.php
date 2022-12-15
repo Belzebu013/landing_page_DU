@@ -21,11 +21,6 @@
                 </div>
                 <!--Coluna 2-->
                 <div class="col-9 coluna-topo-2">
-                     <!--
-                    <div class="coluna-topo-2_1">
-                        <button class="btn btn-transparent" role="button" id="but-log"><b>LOGIN</b></button>
-                    </div>
-                    -->
                     <div>
                         <nav class="navbar navbar-expand-xxl bg-transparent">
                             <div class="container-fluid">
@@ -197,7 +192,7 @@
     <footer class="rodape">
         <div class="container" >
             <div class="row">
-                <div class="col-4 fot-box bord">
+                <div class="col-4 fot-box bord fot-box-1">
                     <div><a href="index_1.php"><img src="imagens/logopng.png" class="img-rodape" alt="logo"></a></div>
                     
                         <h3 class="tel">4007-2525<h3>
