@@ -1,3 +1,4 @@
+
 /* FORMATAÇÕES DIRETAS   */
 body{
     background-color: #fff;
@@ -97,7 +98,6 @@ h4{
 
 .bloco{
     width: 30%; 
-    height: 370px;
     float: left; 
     margin: 10px; 
     padding: 8px; 
@@ -170,11 +170,12 @@ h4{
     .bloco{
         height: 400px;
     }
+
 }
 
 @media only screen and (max-width: 1200px){
     .bloco{
-        height: 540px;
+        height: 550px;
     }
 
     button{
@@ -185,6 +186,7 @@ h4{
     nav{
         width: 80px;
     }
+
 }
 
 @media only screen and (max-width: 990px){
@@ -257,4 +259,5 @@ h4{
         height: 500px;
     }
 }
+
 

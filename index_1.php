@@ -168,17 +168,20 @@
                             $stmt->execute();
                             while($row = $stmt->fetch()){
                         ?>
-                            <div class="border-dark mb-3 bg-white bloco">
-                                <div class="card-header"><?= "<b>".$row['nm_dentista']."<br/>CRO: ".$row['nm_cro']."</b>";?></div>
+                            <div class="border-dark mb-3 bg-white bloco" style="height: auto; overflow: hidden;">
+                                <div class="card-header" style="height: 55px;"><?= "<b>".$row['nm_dentista']."<br/>CRO: ".$row['nm_cro']."</b>";?></div>
                                     <hr size="4" noshade color="black"/>
-                                    <div class="card-body text-dark">
+                                    <div class="card-body text-dark" style="height: 220px;">
                                         <p class="card-text"><?= '<b>Fone: </b>'.$row['nm_telefone']; ?></p>
                                         <p class="card-text"><?= '<b>Endereço: </b>'.$row['ds_endereco']; ?></p>
-                                        <p class="card-text"><?= '<b>Áreas de atuação: </b>'.$row['ds_atuacao']; ?></p>
+                                        <p class="card-text"><?= '<b>Áreas de atuação: </b>'.$row['ds_atuacao']; ?></p> 
+                                    </div>
+                                    <div style="height: auto: overflow: hidden;">
+                                        <hr size="4" noshade color="black"/>
                                         <button class="btn btn-info">Como chegar</button>
                                         <button class="btn btn-info" >Ver mapa</button>
-                                        <button class="btn btn-info" >Planos</button>
-                                        <button class="btn btn-info" style="margin-top: 5px;" >Horários</button>
+                                        <button class="btn btn-info">Planos</button>
+                                        <button class="btn btn-info" style="margin-top: 5px;">Horários</button>
                                     </div>
                             </div>
 

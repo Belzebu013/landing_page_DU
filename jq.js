@@ -4,6 +4,8 @@ $(document).ready(()=>{
 
     $('.nav-link').css({'font-size':'15px'});
 
+    $('#bloco').css({'height':'auto', 'overflow':'hidden'});
+
     $('.par').css({'font-size':'15px','color': '#fff'});
 
     $('.tel').css({'font-size':'25px', 'color': '#fff'});
